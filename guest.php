@@ -74,23 +74,26 @@
       <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
     </ol>
     <div class="carousel-inner vh-100 ">
-      <div class="carousel-item car-item vh-100">
+      <div class="carousel-item car-item active vh-100">
         <div class="img w-100 vh-100 pt-2 "></div>
         <div class="carousel-caption boxx ">
 
 
           <div class="container-fluid  logotext">
-            <h1 class="text-light display-1 text-center">Wanna see my old websites?</h1>
+            <h1 class="text-light display-1 text-center">ZWOLFE</h1>
           </div>
           <div class="loginandsignup">
-            <a class=" btn btn-light my-1 mx-2" target="_blank" href="http://melihzafer.free.bg">First One</a>
-            <a class=" btn btn-light my-1 mx-2" target="_blank" href="http://melihzafer.epizy.com">Second One</a>
+            <a class=" btn btn-light my-1 mx-2" href="login.php">Log In</a>
+            <a class=" btn btn-light my-1 mx-2" href="signup.php">Sign Up</a>
           </div>
+
+
+
 
         </div>
       </div>
 
-      <div class="carousel-item car-item active  vh-100">
+      <div class="carousel-item car-item   vh-100">
         <div class="img w-100 vh-100 pt-2 "></div>
         <div class="carousel-caption boxx ">
 
@@ -110,15 +113,13 @@
         <div class="img w-100 vh-100 pt-2 "></div>
         <div class="carousel-caption boxx ">
 
-
           <div class="container-fluid  logotext">
-            <h1 class="text-light display-1 text-center">ZWOLFE</h1>
+            <h1 class="text-light display-1 text-center">Wanna see my old websites?</h1>
           </div>
           <div class="loginandsignup">
-            <a class=" btn btn-light my-1 mx-2" href="login.php">Log In</a>
-            <a class=" btn btn-light my-1 mx-2" href="signup.php">Sign Up</a>
+            <a class=" btn btn-light my-1 mx-2" target="_blank" href="http://melihzafer.free.bg">First One</a>
+            <a class=" btn btn-light my-1 mx-2" target="_blank" href="http://melihzafer.epizy.com">Second One</a>
           </div>
-
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">

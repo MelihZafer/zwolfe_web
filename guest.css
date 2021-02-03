@@ -26,7 +26,7 @@ body {
   background-color: #f3f3f3;
 }
 .instabtn {
-  background-color: #6f42c1 !important;
+  background-color: #6f42c1;
   color: white;
 }
 
@@ -70,36 +70,11 @@ body {
   /*div*/
   font-family: "Ubuntu", sans-serif;
 }
-/*projects*/
-.rows {
-  height: 90vh;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.project-section {
-  height: 1500px;
-}
-.js {
-  height: 70vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-@media screen and (min-width: 1320px) {
-  .rows {
-    height: 90vh;
+@media (max-width: 450px) {
+  .back {
+    height: 87vh;
   }
-}
-@media screen and (max-width: 500px) {
-  .rows {
-    height: 400px;
-  }
-  .pro-img {
-    display: none !important;
+  .loginandsignup {
+    top: 65vh;
   }
 }

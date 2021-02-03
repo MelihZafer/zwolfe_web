@@ -32,7 +32,7 @@ $user_data = check_login($con);
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item text-center">
-                        <a class="nav-link " aria-current="page" href="index.php#carouselExampleCaptions">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php#carouselExampleCaptions">Home</a>
                     </li>
                     <li class="nav-item text-center">
                         <a class="nav-link" href="project.php#f">Contact</a>
@@ -42,10 +42,11 @@ $user_data = check_login($con);
                             Projects
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                            <li><a class="dropdown-item" href="project.php#games">
+                            <li>
+                                <a class="dropdown-item" href="project.php#games">
                                     <h6>Project</h6>
                                 </a>
-                                <hr class="m-0">
+                                <hr class="m-0" />
                             </li>
                             <li>
                                 <a class="dropdown-item" href="project.php#games">Games</a>
@@ -74,43 +75,45 @@ $user_data = check_login($con);
     </nav>
     <!-- projects -->
 
-    <div class="container-fluid ">
+    <div class="container-fluid">
         <div class="row p-5 align-items-center rows" id="games">
             <div class="col-md-6 col-sm-12 flex-column p-2 align-items-center cols">
-                <h2 class="text-light mx-3 my-3">Games</h2>
+                <h2 class="text-success mx-3 my-3">XOXO</h2>
                 <hr class="bg-light" />
                 <p class="text-light">
-                    All games here are made with Javascript. All codes are ours. Our
-                    priority is to practice and have fun. Maybe we have given you a
-                    project idea.
+                    Xoxo is a paper-and-pencil game for two players, X and O, who take
+                    turns marking the spaces in a 3×3 grid. The player who succeeds in
+                    placing three of their marks in a diagonal, horizontal, or vertical
+                    row is the winner. <br />
+                    Designed by Zwolfe. Code by Zwolfe and Deniz Memduev.
                 </p>
 
-                <a href="games.php" class="btn btn-light" style="width: 10em">Go to games</a>
-
+                <a href="http://melihzafer.epizy.com/xox-main/index.html" class="btn btn-success" style="width: 10em">Play XOXO</a>
             </div>
-            <div class="col-md-6 pro-img cols flex-column col-sm-12 p-2 align-items-center justify-content-center">
-                <img src="img/games.png" style="width: 80%" alt="" />
+            <div class="col-md-6 pro-img cols d-flex flex-column col-sm-12 p-2 align-items-center justify-content-center">
+                <img src="img/xoxo.png" style="width: 50%" alt="" />
             </div>
         </div>
 
         <div class="row p-5 align-items-center rows" id="designs">
             <div class="col-md-6 pro-img col-sm-12 flex-column p-2 align-items-center cols">
-                <img src="img/paint.png" style="width: 50%" alt="" />
+                <img src="img/rps.png" style="width: 60%" alt="" />
             </div>
             <div class="col-md-6 flex-column col-sm-12 p-2 align-items-center justify-content-center cols">
-                <h2 class="text-light mx-3 my-3">JS</h2>
+                <h2 class="text-danger mx-3 my-3">Rock-Paper-Scissor</h2>
                 <hr class="bg-light" />
                 <p class="text-light">
-                    Form, project, app and website designs made with JS. All codes are
-                    ours. Our priority is to practice. Maybe we have given you a project
-                    idea.
+                    Rock paper scissors (also known by other orderings of the three
+                    items, with "rock" sometimes being called "stone", roshambo or
+                    ro-sham-bo) is a hand game usually played between two people, in
+                    which each player simultaneously forms one of three shapes with an
+                    outstretched hand.
                 </p>
 
-                <a href="" class="btn btn-light" style="width: 10em">JS Projects</a>
+                <a href="http://melihzafer.epizy.com/rockpaper-main/index.html" class="btn btn-danger" style="width: 10em">Play RPS</a>
             </div>
         </div>
     </div>
-
 
     <script src="bootstrap.js"></script>
     <script src="jquery.js"></script>
