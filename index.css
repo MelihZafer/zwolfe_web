@@ -30,9 +30,6 @@ body {
   color: white;
 }
 
-.section1 {
-  height: 800px;
-}
 .boxx {
   position: absolute;
   top: 30%;
@@ -72,6 +69,7 @@ body {
 }
 /*projects*/
 .rows {
+  width: 100%;
   height: 90vh;
   display: flex;
   justify-content: space-evenly;
@@ -90,6 +88,16 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+.section1 {
+  background-color: #282c30;
+}
+.line {
+  width: 100%;
+  height: 10px;
+  background-color: #35373a;
+}
+
+/* --------------------mobile------------------- */
 @media screen and (min-width: 1320px) {
   .rows {
     height: 90vh;

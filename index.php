@@ -65,19 +65,6 @@ $user_data = check_login($con);
     </div>
   </nav>
 
-
-
-  <div class="back pt-2 ">
-
-    <div class="container-fluid  logotext">
-      <h1 class="text-light display-1 text-center">ZWOLFE</h1>
-    </div>
-
-  </div>
-
-
-
-
   <!-- Carusel -->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="user-select: none;">
     <ol class="carousel-indicators">
@@ -125,9 +112,97 @@ $user_data = check_login($con);
     </a>
   </div>
   <!-- Sections -->
-  <!-- <div class="container-fluid spacebox"></div>
-      
-         Footer -->
+  <div class="container-fluid section1  py-4 text-light">
+    <div class="row p-2 text-center py-4">
+      <div class="header">
+        <h1>Git Hub Repositories</h1>
+      </div>
+    </div>
+    <!-- row 1 -->
+    <div class="row gy-4 text-dark">
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Zwolfe - Website</h5>
+            <p class="card-text">The repository of this website in Git Hub. <br> <br></p>
+            <a href="https://github.com/melihzafer/zwolfe_web" target='_blank' class="btn btn-secondary">Go to Git Hub</a>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Darkchat - Zwolfe</h5>
+            <p class="card-text">The chat system created for close friends. <br> That's why he's been called 'Darkchat'.</p>
+            <a href="https://github.com/melihzafer/darkchat_zwolfe" target='_blank' class="btn btn-secondary">Go to Git Hub</a>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">XOXO - TicTacToe</h5>
+            <p class="card-text">The XOXO game that has been created by Zwolfe and Deniz Memduev.</p>
+            <a href="https://github.com/melihzafer/xoxo" target='_blank' class="btn btn-secondary">Go to Git Hub</a>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Traffic Racer - Car Game</h5>
+            <p class="card-text">A car race game known as 'Traffic racer' created by Zwolfe with jQuery.</p>
+            <a href="https://github.com/melihzafer/traffic_racer_game" target='_blank' class="btn btn-secondary">Go to Git Hub</a>
+          </div>
+        </div>
+      </div>
+      <!-- row 2 -->
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Melih Zafer - Website</h5>
+            <p class="card-text">The repository of my old website in Git Hub. <br> <br></p>
+            <a href="https://github.com/melihzafer/melihzafer_web" target='_blank' class="btn btn-secondary">Go to Git Hub</a>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">My First App - Website</h5>
+            <p class="card-text">The repository of my first website in Git Hub. </p>
+            <a href="https://github.com/melihzafer/my_first_Web_App" target='_blank' class="btn btn-secondary">Go to Git Hub</a>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Doner - PHP App</h5>
+            <p class="card-text">My first PHP and MySql app. Doner order website. </p>
+            <a href="https://github.com/melihzafer/doner" target='_blank' class="btn btn-secondary">Go to Git Hub</a>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">ToDo - JS</h5>
+            <p class="card-text">ToDo list created with JavaScript by Zwolfe. <br> <br></p>
+            <a href="https://github.com/melihzafer/traffic_racer_game" target='_blank' class="btn btn-secondary">Go to Git Hub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Footer -->
   <div class="container-fluid bg-dark pt-5 text-light " id="f">
     <div class="row gy-3 ">
       <div class="col-4  d-flex justify-content-center ">

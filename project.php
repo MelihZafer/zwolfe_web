@@ -98,10 +98,10 @@ $user_data = check_login($con);
                 <img src="img/paint.png" style="width: 50%" alt="" />
             </div>
             <div class="col-md-6 flex-column col-sm-12 p-2 align-items-center justify-content-center cols">
-                <h2 class="text-light mx-3 my-3">JS</h2>
+                <h2 class="text-light mx-3 my-3">Application</h2>
                 <hr class="bg-light" />
                 <p class="text-light">
-                    Form, project, app and website designs made with JS. All codes are
+                    Form, project, app and website designs. All codes are
                     ours. Our priority is to practice. Maybe we have given you a project
                     idea.
                 </p>

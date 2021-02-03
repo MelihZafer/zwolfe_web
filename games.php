@@ -75,7 +75,7 @@ $user_data = check_login($con);
     </nav>
     <!-- projects -->
 
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
         <div class="row p-5 align-items-center rows" id="games">
             <div class="col-md-6 col-sm-12 flex-column p-2 align-items-center cols">
                 <h2 class="text-success mx-3 my-3">XOXO</h2>
@@ -94,7 +94,7 @@ $user_data = check_login($con);
                 <img src="img/xoxo.png" style="width: 50%" alt="" />
             </div>
         </div>
-
+        <div class="line"></div>
         <div class="row p-5 align-items-center rows" id="designs">
             <div class="col-md-6 pro-img col-sm-12 flex-column p-2 align-items-center cols">
                 <img src="img/rps.png" style="width: 60%" alt="" />
@@ -111,6 +111,22 @@ $user_data = check_login($con);
                 </p>
 
                 <a href="http://melihzafer.epizy.com/rockpaper-main/index.html" class="btn btn-danger" style="width: 10em">Play RPS</a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="row p-5 align-items-center rows" id="games">
+            <div class="col-md-6 col-sm-12 flex-column p-2 align-items-center cols">
+                <h2 class="text-warning mx-3 my-3">Traffic racer - Car Game</h2>
+                <hr class="bg-light" />
+                <p class="text-light">
+                    Traffic Racer is a milestone in the genre of endless arcade racing. Drive your car through highway traffic. <br />
+                    Code by Zwolfe.
+                </p>
+
+                <a href="car_game/car_racer.html" class="btn btn-warning" style="width: 10em">Play Traffic Racer</a>
+            </div>
+            <div class="col-md-6 pro-img cols d-flex flex-column col-sm-12 p-2 align-items-center justify-content-center">
+                <img src="img/traffic_racer.png" style="width: 70%" alt="" />
             </div>
         </div>
     </div>
