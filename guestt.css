@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+.menuitems {
+  margin: 0px 1em;
+}
+.buttonmenu {
+  outline-style: none;
+  border: none;
+  transition: none;
+}
+.menunav {
+  user-select: none;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+body {
+  background-color: #f3f3f3;
+}
+.instabtn {
+  background-color: #6f42c1;
+  color: white;
+}
+
+.section1 {
+  height: 800px;
+}
+.boxx {
+  position: absolute;
+  top: 0;
+}
+
+.car-item .img {
+  height: 500px;
+  position: relative;
+}
+.car-item h5 {
+  font-size: 1.5em;
+}
+.spacebox {
+  height: 500px;
+}
+.back {
+  width: 100%;
+  height: 100vh;
+  background-color: #212529;
+  background-image: url(img/logo1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+.loginandsignup {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.logotext {
+  /*div*/
+  font-family: "Ubuntu", sans-serif;
+  position: absolute;
+  top: 1%;
+}
+@media (max-width: 450px) {
+  .back {
+    height: 87vh;
+  }
+  .loginandsignup {
+    top: 65vh;
+  }
+}
